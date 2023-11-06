@@ -12,3 +12,4 @@ for (; i < len;) {
 
 }
 console.log(devops);
+console.log(len);
