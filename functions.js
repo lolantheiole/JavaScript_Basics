@@ -1,7 +1,7 @@
-let courses = ["Java", "Ruby", "Vue"]
+let courses = ["Java", "Ruby", "Vue"];
 
-courses.forEach(func)
+courses.forEach(func);
 
 function func(course) {
-    console.log(course)
+    console.log(course);
 }
