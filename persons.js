@@ -14,6 +14,7 @@ console.log(jane);
 let Bongie = {
     name: "Bongie",
     age: 22,
+    course: "Full Stack",
 
 };
 
@@ -23,5 +24,5 @@ function Students(name, age, course){
     this.course = course;
 }
 
-let slindelo = new Students(Bongie, Bongie.age, "Math");
+let slindelo = new Students(Bongie.name, Bongie.age, Bongie.course);
 console.log(slindelo);

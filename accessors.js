@@ -7,6 +7,10 @@ const student = {
 
     //accessor property(getter)
     get getName() { return this.firstName; },
+
+    get getDetails() {
+        return [this.surname, this.firstName];
+    },
     //mutator property(setter)
     set setName(newName) {
         this.firstName = newName;
@@ -15,9 +19,9 @@ const student = {
 
 console.log(student.firstName);
 console.log(student.getName);
-
+console.log(student.getDetails);
 //assign a new name to first name
-student.setName="Yolanda";
+student.setName = "Yolanda";
 console.log(student.firstName);
 
 
